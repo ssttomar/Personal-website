@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Portfolio</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Montserrat&family=Old+Standard+TT&family=Sacramento&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">My Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="file:///C:/Web%20Devlopment/Portfolio%20project/page1.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Resume</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            My Work
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Skills</a>
+            <a class="dropdown-item" href="#">Projects</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Resume</a>
+          </div>
+        </li>
+        <a class="btn btnup" href="mailto:sumit320tomar@gmail.com">CONTACT ME</a>
+        
+      </ul>
+      
+    </div>
+  </nav>
+    <div class="container ">
+        <div class="row">
+          <div class="col-6  aboutme">
+            <h1 id="intro">Introducing </h1>
+            <h1 id="name">I'm Sumit</h1>
+            
+            <p> I am doing my B-tech in Cse from <br>
+                Jaypee University of Engineering and <br>
+                Technology Guna. I love to do problem solving<br>
+                with the help of my programming skills. </p>
+                
+             
+          </div>
+          <div class="col-6  image">
+            <img src="images/sumitpic2.png" alt="myProfilePic">
+          </div>
+          
+        </div>
+    </div>
+<hr>
+    <div class="container">
+      <div class="row">
+        <div class="col skills">
+          <h1 id="personal">Personal</h1>
+          <h1 id="skills">SKILLS</h1>
+          <p>I have a decent Knowledge of Data structures<br>
+            and Algorithm and Oject Orientated programming <br>
+            and had a good experience in Full Stack Development.</p>
+             
+        </div>
+        <div class="col skillspic">
+          <div class="grid">
+            <img src="https://1000logos.net/wp-content/uploads/2020/08/MongoDB-Logo.jpg" alt="MongoDB-Logo">
+            <img src="data:image/png;base64,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" alt="expressjs">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlf_bU0iFKLZbX9INCAqA2bo1i1emDFpOb8w&usqp=CAU" alt="react logo">
+            <img src="data:image/png;base64,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" alt="nodejs logo">
+          </div>
+        </div>
+      </div>
+    </div>
+<hr>
+    <div class="container">
+      <div class="row">
+        <div class="col myproject">
+          <h1 id="project">Project</h1>
+          <h1 id="portfolio">Portfolio</h1>
+          <p></p>
+        </div>
+        <div class="col myproject">
+          <img src="images/template.png" alt="template">
+          <div class="projectDetails">
+            <h1><em>01:</em> My personal website</h1>
+            <p>Technology use HTML, CSS and BOOTSTRAP framework</p>
+            <h1><em>02:</em> Flavour Fetcher</h1>
+            <p>A food web application which will help customers <br>
+              to compare specific item among the food chain apps <br>
+              like zomato, swiggy, etc</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+<hr>
+
+    <div class="contact-me">
+      <h1>Get In Touch</h1>
+      <h3>If you love my work.</h3>
+      
+      <a class="btn" href="mailto:sumit320tomar@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+</div>
+<div class="bottom-container">
+  <a class="footer-link" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">LinkedIn</a>
+  <a class="footer-link" href="https://twitter.com/SumitSi43497379">Twitter</a>
+  <a class="footer-link" href="">Website</a>
+  <p class="copyright">© Sumit Singh @ My Portfolio.</p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

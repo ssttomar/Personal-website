@@ -1,0 +1,125 @@
+.aboutme{
+    
+    text-align: center;
+    padding-top: 150px;
+}
+
+.container{
+    height: 100vh;
+    width: 1325px;
+    margin: 0;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    width: 500px;
+}
+.row{
+    height: 100vh;
+    width: 1325px;
+}
+#intro, #personal,#project{
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    margin: 0;
+}
+#name ,#skills, #portfolio{
+    font-family: 'Castoro Titling', cursive;
+}
+.aboutme p {
+    font-family: 'Old Standard TT', serif;
+    font-size: 1.2rem;
+}
+.grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns:1fr 1fr;
+    gap: 10px;
+}
+.grid img{
+    width: 200px;
+}
+.skills p{
+    font-family: 'Old Standard TT', serif;
+    font-size: 1.2rem; 
+}
+.skills,.myproject{
+    text-align: center;
+    padding-top: 200px;
+    
+}
+.skillspic{
+    padding-top: 200px;
+    
+}
+.myproject img{
+    z-index: -1;
+    height : 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.myproject{
+   position: relative;
+}
+.projectDetails{
+    position: absolute;
+    padding-left: 100px;
+}
+.projectDetails p{
+    margin-bottom: 50px;
+}
+.contact-me{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+hr{
+    width: 10%;
+    border-style: dotted none none;
+    border-width: 7px;
+    border-color: rgb(202, 195, 195);
+    margin-left: 600px;
+    
+}
+.bottom-container{
+    height: 20vh;
+    background-color: #b6eeff;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.btn{
+   background-color: #b6eeff;
+}
+a{
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.bottom-container p{
+    margin-top: 20px;
+}
+.contact-me h3{
+    font-family: 'Castoro Titling', cursive;
+}
+.contact-me h1{
+    font-family: 'Montserrat', sans-serif;
+}
+.contact-me h1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.collapse{
+    position: relative;
+}
+.btnup{
+position: absolute;
+right: 20px;
+}
